@@ -1,0 +1,50 @@
+.background {
+    background-color: #000;
+    /* faça com que a div que receber´essa classname preencha todo o espaço disponível */
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Certifique-se de que a div fique atrás de outros elementos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container {
+    background-color: #fff;
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 8px;
+}
+.user-area {
+    background-color: lightgreen;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.user-options {
+    background-color: lightcoral;
+    display: flex;
+}
+.main-contend {
+    background-color: cornflowerblue;
+    min-height: 72vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding: 20px;
+}
+.footer {
+    background-color: lightblue;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}

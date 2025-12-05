@@ -1,0 +1,9 @@
+.card-background {
+    background-color: blueviolet;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}

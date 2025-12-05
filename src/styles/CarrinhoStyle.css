@@ -1,0 +1,66 @@
+.background {
+    background-color: #000;
+    /* faça com que a div que receber´essa classname preencha todo o espaço disponível */
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Certifique-se de que a div fique atrás de outros elementos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carrinho-container {
+    background-color: gray;
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.carrinho-interface {
+    background-color: #fff;
+    width: 75%;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 30px 10px;
+}
+.carrinho-content {
+    background-color: yellowgreen;
+    width: 100%;
+    height: 80vh;
+}
+.buttons {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5vh;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.buttons button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.buttons button:hover {
+    background-color: darkgreen;
+}
+.carrinho-button {
+    min-height: 100%;
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
